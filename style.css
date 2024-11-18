@@ -1,0 +1,11 @@
+.content {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  text-align: center;
+  color: white;
+
+}
+.content:hover {
+  background-color: rebeccapurple;
+}
