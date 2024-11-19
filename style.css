@@ -1,11 +1,21 @@
-.content {
-  width: 100px;
-  height: 100px;
-  background-color: aqua;
-  text-align: center;
-  color: white;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: aquamarine;
+}
+
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 
 }
-.content:hover {
-  background-color: rebeccapurple;
+
+img:hover {
+  transform: scale(2.2);
 }
+
