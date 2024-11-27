@@ -1,6 +1,8 @@
 h1{
+  background-color: rgb(38, 107, 218);
 text-align: center;
 }
+
 
 /* configuracao dos perfis */
 .profiles{
@@ -43,3 +45,4 @@ p{
 font-size: 1rem;
 margin: 0;
 }
+
