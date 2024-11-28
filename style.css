@@ -1,24 +1,61 @@
-h1{
-text-align: center;
+@import "./fontes/Roboto_Mono";
+
+body {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #1B1B1B;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-family: "Roboto_Mono", monospace;
 }
 
 /* configuracao dos perfis */
 .profiles{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 100px; /* espacamento entre perfis */
-margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px; /* espacamento entre perfis */
+    margin-top: 100px;
 }
 
 /*especificacoes de Cada Quadrado do Perfil*/
-.profile{
-text-align: center;
-background-color:white;
-padding: 15px;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-max-width: 400px;
+div.profile {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #080808;
+    max-width: 400px;
+    /*Estilizacoes dos perfis*/
+    background-color: #1B1B1B;
+    color: white;
+    font-family: Roboto Mono, monospace;
+}
+div.profile p {
+    margin-bottom: 2rem;
+}
+
+div.profile a {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #62BA1B;
+    max-width: 400px;
+    background-color: #3F8E00;
+    color: white;
+    font-family: Roboto Mono, monospace;
+    margin: 1rem;
 }
 
 img{

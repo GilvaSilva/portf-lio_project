@@ -1,0 +1,19 @@
+@import "../fontes/Roboto_Mono";
+
+header {
+    background-color: #757575;
+    display: flex;
+    justify-content: left;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: Roboto_Mono, monospace;
+}
+
+footer {
+    background-color: #1B1B1B;
+    padding: 1rem;
+}
+
